@@ -1,1 +1,27 @@
-/*  your css code here. If applicable */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cdn.pixabay.com/photo/2021/11/27/12/16/mountain-6827881_640.jpg'); /* Change 'background.jpg' to your background image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0; /* Adjust padding as needed */
+    font-size: 18px;
+}
